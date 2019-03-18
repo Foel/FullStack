@@ -1,0 +1,12 @@
+title Single page app
+
+Selain->Palvelin: GET (/spa)
+Palvelin->Selain: HTML-koodi
+Selain->Palvelin: GET (main.css)
+Palvelin->Selain: main.css
+Selain->Palvelin: GET (spa.js)
+Palvelin->Selain: spa.js
+note left of Selain: spa.js tiedoston js koodi tarvitsee palvelimelta data.json sisältämät tietueet.
+Selain->Palvelin: GET (data.json)
+Palvelin->Selain: data.json
+note left of Selain: Käsittelee data.json-tioedoston sisältämät tietueet ja tulostaa ne näytölle.

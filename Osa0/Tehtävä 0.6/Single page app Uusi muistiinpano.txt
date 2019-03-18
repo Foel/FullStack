@@ -1,0 +1,7 @@
+title Single page app Uusi muistiinpano
+
+Selain->Palvelin: POST: new_note_spa (Sisältää "Viestin" ja "Päivämäärän") 
+note left of Selain: notes.push(note) Eli tulostetaan näytölle heti tietue mikä lähetettiin.
+note right of Palvelin: Content_type: application/json.
+note right of Palvelin: Vastaanotettu new_note_spa ja lisätty sen sisältö data.json.
+Palvelin->Selain: Status 201 (Created)

@@ -12,4 +12,4 @@ Palvelin->Selain: main.js
 note left of Selain: main.js tiedoston js koodi tarvitsee palvelimelta data.json sisältämät tietueet.
 Selain->Palvelin: GET (data.json)
 Palvelin->Selain: data.json
-note left of Selain: Käsittelee data.json-tioedoston sisltämät tietueet ja tulostaa ne näytölle.
+note left of Selain: Käsittelee data.json-tioedoston sisältämät tietueet ja tulostaa ne näytölle.
