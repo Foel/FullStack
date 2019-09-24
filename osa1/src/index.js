@@ -29,6 +29,7 @@ const App = () => {
             <h1>Greetings</h1>
             <Hello name ="Pekka" age = {20 + 13} />
             <Hello name ={name} age = {age + 2} />
+            <Hello />
             <Footer />
         </div>
     )
