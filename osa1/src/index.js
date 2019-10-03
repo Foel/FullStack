@@ -19,6 +19,7 @@ const Footer = () => {
         <div>
             <h1>Created footer for the page</h1>
             <h4>Smaller text</h4>
+            <p>Paragraph for the text to see how it shows inspect</p>
         </div>
     )
 }
